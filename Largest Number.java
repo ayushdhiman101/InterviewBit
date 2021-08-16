@@ -18,6 +18,8 @@ class Solution {
     arr[i]=Integer.toString(nums[i]);
 
     //Anonymous function
+    //Using comparator interface to sort elements based on our own pattern/wishes
+
     Arrays.sort(arr,new Comparator<String>(){
     @Override public int compare(String x,String y){
             String one=x+y;
